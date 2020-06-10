@@ -3,6 +3,9 @@ package lessons.lections.lection4;
 import java.util.*;
 
 public class Main {
+
+//    SET, MAP
+
     public static void main(String[] args) {
         Set<String> stringSet = new HashSet<>();
         stringSet.add("first");
