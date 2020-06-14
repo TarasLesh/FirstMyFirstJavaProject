@@ -6,6 +6,7 @@ public final class Validator {
     public static void validateInt(Class<?> someClass, Object object) {
 //        Person person = (Person) object;
         Field[] declaredFields = someClass.getDeclaredFields();
+
 //        Class<?> aClass = object.getClass();
 //        System.out.println("Object class -" + aClass);
         for (Field declaredField : declaredFields) {
