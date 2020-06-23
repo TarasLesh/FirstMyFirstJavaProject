@@ -45,8 +45,8 @@ public class Main {
             System.out.println("Something WRONG. HTTP Code = " + responseCode);
         }
 
-//        JSONObject jsonObject = new JSONObject(responseBody.toString());  // помилка. прийшов Array
-//        System.out.println(responseBody.toString());
+// --       JSONObject jsonObject = new JSONObject(responseBody.toString());  // помилка. прийшов Array
+// --       System.out.println(responseBody.toString());
 
         JSONArray jsonArray = new JSONArray(responseBody.toString());
 //        System.out.println(jsonArray);
@@ -93,8 +93,8 @@ public class Main {
 //            }
 //        });
 
-//        int executeUpdateRowsCount = preparedStatement.executeUpdate();
-//        System.out.println(executeUpdateRowsCount);
+// --       int executeUpdateRowsCount = preparedStatement.executeUpdate();
+// --       System.out.println(executeUpdateRowsCount);
 
                                 //  executeQuery повертає нам дані у вигляді таблиці
         ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM USER");
