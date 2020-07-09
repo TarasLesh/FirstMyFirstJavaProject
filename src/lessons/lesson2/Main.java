@@ -31,12 +31,16 @@ public class Main {
 
         CustomShop customShop = new CustomShop();
         Clothes[] clothes = customShop.womanClothes();
-        for (Clothes clothe : clothes) {
-            if (clothe.getSize().getEuroSize() == 48){
+
+
+//        for (Clothes clothe : clothes) {
+            //if (clothe.getSize().getEuroSize() == 48){
 
 //               .........
 
-            }
-        }
+           // }
+
+
+//        }
     }
 }
